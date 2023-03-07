@@ -1,0 +1,2112 @@
+<?xml version = "1.0" encoding="ISO-8859-1"?>
+<ponctualite>
+  <RER>
+    <ligne valeur="A">
+      <mesure no="1">
+        <date>2013-01</date>
+        <taux>83.6</taux>
+        <nombre>5.1</nombre>
+      </mesure>
+      <mesure no="2">
+        <date>2013-04</date>
+        <taux>83.3</taux>
+        <nombre>5.0</nombre>
+      </mesure>
+      <mesure no="3">
+        <date>2013-08</date>
+        <taux>88.9</taux>
+        <nombre>8.0</nombre>
+      </mesure>
+      <mesure no="4">
+        <date>2014-02</date>
+        <taux>85.7</taux>
+        <nombre>6.0</nombre>
+      </mesure>
+      <mesure no="5">
+        <date>2015-02</date>
+        <taux>73.0954862767</taux>
+        <nombre>2.7</nombre>
+      </mesure>
+      <mesure no="6">
+        <date>2015-03</date>
+        <taux>71.9550770992</taux>
+        <nombre>2.6</nombre>
+      </mesure>
+      <mesure no="7">
+        <date>2015-06</date>
+        <taux>71.1496303121</taux>
+        <nombre>2.5</nombre>
+      </mesure>
+      <mesure no="8">
+        <date>2013-09</date>
+        <taux>83.3</taux>
+        <nombre>5.0</nombre>
+      </mesure>
+      <mesure no="9">
+        <date>2013-11</date>
+        <taux>80.9</taux>
+        <nombre>4.2</nombre>
+      </mesure>
+      <mesure no="10">
+        <date>2014-05</date>
+        <taux>87.6</taux>
+        <nombre>7.1</nombre>
+      </mesure>
+      <mesure no="11">
+        <date>2014-10</date>
+        <taux>68.8</taux>
+        <nombre>2.2</nombre>
+      </mesure>
+      <mesure no="12">
+        <date>2014-11</date>
+        <taux>69.8</taux>
+        <nombre>2.3</nombre>
+      </mesure>
+      <mesure no="13">
+        <date>2015-04</date>
+        <taux>71.9766560096</taux>
+        <nombre>2.6</nombre>
+      </mesure>
+      <mesure no="14">
+        <date>2015-08</date>
+        <taux>82.9967982302</taux>
+        <nombre>4.9</nombre>
+      </mesure>
+      <mesure no="15">
+        <date>2013-02</date>
+        <taux>86.2</taux>
+        <nombre>6.2</nombre>
+      </mesure>
+      <mesure no="16">
+        <date>2013-06</date>
+        <taux>83.4</taux>
+        <nombre>5.0</nombre>
+      </mesure>
+      <mesure no="17">
+        <date>2013-12</date>
+        <taux>81.2</taux>
+        <nombre>4.3</nombre>
+      </mesure>
+      <mesure no="18">
+        <date>2014-01</date>
+        <taux>81.1</taux>
+        <nombre>4.3</nombre>
+      </mesure>
+      <mesure no="19">
+        <date>2014-04</date>
+        <taux>85.7</taux>
+        <nombre>6.0</nombre>
+      </mesure>
+      <mesure no="20">
+        <date>2014-06</date>
+        <taux>72.6</taux>
+        <nombre>2.6</nombre>
+      </mesure>
+      <mesure no="21">
+        <date>2014-07</date>
+        <taux>70.5</taux>
+        <nombre>2.4</nombre>
+      </mesure>
+      <mesure no="22">
+        <date>2014-08</date>
+        <taux>81.2</taux>
+        <nombre>4.3</nombre>
+      </mesure>
+      <mesure no="23">
+        <date>2013-07</date>
+        <taux>83.2</taux>
+        <nombre>5.0</nombre>
+      </mesure>
+      <mesure no="24">
+        <date>2014-03</date>
+        <taux>83.3</taux>
+        <nombre>5.0</nombre>
+      </mesure>
+      <mesure no="25">
+        <date>2015-05</date>
+        <taux>71.2171208681</taux>
+        <nombre>2.5</nombre>
+      </mesure>
+      <mesure no="26">
+        <date>2013-03</date>
+        <taux>84.0</taux>
+        <nombre>5.3</nombre>
+      </mesure>
+      <mesure no="27">
+        <date>2013-05</date>
+        <taux>86.4</taux>
+        <nombre>6.4</nombre>
+      </mesure>
+      <mesure no="28">
+        <date>2013-10</date>
+        <taux>83.1</taux>
+        <nombre>4.9</nombre>
+      </mesure>
+      <mesure no="29">
+        <date>2014-09</date>
+        <taux>70.9</taux>
+        <nombre>2.4</nombre>
+      </mesure>
+      <mesure no="30">
+        <date>2014-12</date>
+        <taux>67.3</taux>
+        <nombre>2.1</nombre>
+      </mesure>
+      <mesure no="31">
+        <date>2015-01</date>
+        <taux>74.5</taux>
+        <nombre>2.9</nombre>
+      </mesure>
+      <mesure no="32">
+        <date>2015-07</date>
+        <taux>73.1</taux>
+        <nombre>2.7</nombre>
+      </mesure>
+    </ligne>
+    <ligne valeur="B">
+      <mesure no="1">
+        <date>2013-02</date>
+        <taux>80.3</taux>
+        <nombre>4.1</nombre>
+      </mesure>
+      <mesure no="2">
+        <date>2013-08</date>
+        <taux>89.9</taux>
+        <nombre>8.9</nombre>
+      </mesure>
+      <mesure no="3">
+        <date>2013-09</date>
+        <taux>86.6</taux>
+        <nombre>6.5</nombre>
+      </mesure>
+      <mesure no="4">
+        <date>2014-03</date>
+        <taux>87.9</taux>
+        <nombre>7.3</nombre>
+      </mesure>
+      <mesure no="5">
+        <date>2014-07</date>
+        <taux>86.9</taux>
+        <nombre>6.6</nombre>
+      </mesure>
+      <mesure no="6">
+        <date>2015-04</date>
+        <taux>86.1725099925</taux>
+        <nombre>6.2</nombre>
+      </mesure>
+      <mesure no="7">
+        <date>2015-07</date>
+        <taux>90.9</taux>
+        <nombre>10.0</nombre>
+      </mesure>
+      <mesure no="8">
+        <date>2013-11</date>
+        <taux>77.9</taux>
+        <nombre>3.5</nombre>
+      </mesure>
+      <mesure no="9">
+        <date>2014-04</date>
+        <taux>88.5</taux>
+        <nombre>7.7</nombre>
+      </mesure>
+      <mesure no="10">
+        <date>2014-06</date>
+        <taux></taux>
+        <nombre>0.0</nombre>
+      </mesure>
+      <mesure no="11">
+        <date>2014-09</date>
+        <taux>87.4</taux>
+        <nombre>6.9</nombre>
+      </mesure>
+      <mesure no="12">
+        <date>2015-02</date>
+        <taux>85.3965470191</taux>
+        <nombre>5.8</nombre>
+      </mesure>
+      <mesure no="13">
+        <date>2015-05</date>
+        <taux>86.9952922687</taux>
+        <nombre>6.7</nombre>
+      </mesure>
+      <mesure no="14">
+        <date>2015-06</date>
+        <taux>84.9707913192</taux>
+        <nombre>5.7</nombre>
+      </mesure>
+      <mesure no="15">
+        <date>2013-07</date>
+        <taux>84.1</taux>
+        <nombre>5.3</nombre>
+      </mesure>
+      <mesure no="16">
+        <date>2014-01</date>
+        <taux>81.3</taux>
+        <nombre>4.3</nombre>
+      </mesure>
+      <mesure no="17">
+        <date>2014-02</date>
+        <taux>88.9</taux>
+        <nombre>8.0</nombre>
+      </mesure>
+      <mesure no="18">
+        <date>2014-05</date>
+        <taux>89.4</taux>
+        <nombre>8.4</nombre>
+      </mesure>
+      <mesure no="19">
+        <date>2014-08</date>
+        <taux>90.7</taux>
+        <nombre>9.8</nombre>
+      </mesure>
+      <mesure no="20">
+        <date>2014-10</date>
+        <taux>85.5</taux>
+        <nombre>5.9</nombre>
+      </mesure>
+      <mesure no="21">
+        <date>2014-11</date>
+        <taux>86.1</taux>
+        <nombre>6.2</nombre>
+      </mesure>
+      <mesure no="22">
+        <date>2014-12</date>
+        <taux>84.6</taux>
+        <nombre>5.5</nombre>
+      </mesure>
+      <mesure no="23">
+        <date>2015-01</date>
+        <taux>88.5</taux>
+        <nombre>7.7</nombre>
+      </mesure>
+      <mesure no="24">
+        <date>2015-03</date>
+        <taux>89.8537787545</taux>
+        <nombre>8.9</nombre>
+      </mesure>
+      <mesure no="25">
+        <date>2015-08</date>
+        <taux>92.9183310249</taux>
+        <nombre>13.1</nombre>
+      </mesure>
+      <mesure no="26">
+        <date>2013-03</date>
+        <taux>82.7</taux>
+        <nombre>4.8</nombre>
+      </mesure>
+      <mesure no="27">
+        <date>2013-04</date>
+        <taux>86.4</taux>
+        <nombre>6.4</nombre>
+      </mesure>
+      <mesure no="28">
+        <date>2013-10</date>
+        <taux>80.7</taux>
+        <nombre>4.2</nombre>
+      </mesure>
+      <mesure no="29">
+        <date>2013-01</date>
+        <taux>80.1</taux>
+        <nombre>4.0</nombre>
+      </mesure>
+      <mesure no="30">
+        <date>2013-05</date>
+        <taux>84.0</taux>
+        <nombre>5.3</nombre>
+      </mesure>
+      <mesure no="31">
+        <date>2013-06</date>
+        <taux>82.2</taux>
+        <nombre>4.6</nombre>
+      </mesure>
+      <mesure no="32">
+        <date>2013-12</date>
+        <taux>82.4</taux>
+        <nombre>4.7</nombre>
+      </mesure>
+    </ligne>
+    <ligne valeur="C">
+      <mesure no="1">
+        <date>2013-03</date>
+        <taux>80.0</taux>
+        <nombre>4.0</nombre>
+      </mesure>
+      <mesure no="2">
+        <date>2014-01</date>
+        <taux>86.0</taux>
+        <nombre>6.1</nombre>
+      </mesure>
+      <mesure no="3">
+        <date>2014-02</date>
+        <taux>88.2</taux>
+        <nombre>7.5</nombre>
+      </mesure>
+      <mesure no="4">
+        <date>2014-05</date>
+        <taux>91.7</taux>
+        <nombre>11.0</nombre>
+      </mesure>
+      <mesure no="5">
+        <date>2014-08</date>
+        <taux>93.9</taux>
+        <nombre>15.4</nombre>
+      </mesure>
+      <mesure no="6">
+        <date>2014-12</date>
+        <taux>89.3</taux>
+        <nombre>8.3</nombre>
+      </mesure>
+      <mesure no="7">
+        <date>2013-02</date>
+        <taux>91.8</taux>
+        <nombre>11.2</nombre>
+      </mesure>
+      <mesure no="8">
+        <date>2013-08</date>
+        <taux>93.4</taux>
+        <nombre>14.2</nombre>
+      </mesure>
+      <mesure no="9">
+        <date>2014-06</date>
+        <taux>87.3</taux>
+        <nombre>6.9</nombre>
+      </mesure>
+      <mesure no="10">
+        <date>2014-10</date>
+        <taux>84.1</taux>
+        <nombre>5.3</nombre>
+      </mesure>
+      <mesure no="11">
+        <date>2015-02</date>
+        <taux>91.6087087474</taux>
+        <nombre>10.9</nombre>
+      </mesure>
+      <mesure no="12">
+        <date>2015-03</date>
+        <taux>88.9155867451</taux>
+        <nombre>8.0</nombre>
+      </mesure>
+      <mesure no="13">
+        <date>2015-07</date>
+        <taux>88.3</taux>
+        <nombre>7.5</nombre>
+      </mesure>
+      <mesure no="14">
+        <date>2013-06</date>
+        <taux>90.3</taux>
+        <nombre>9.3</nombre>
+      </mesure>
+      <mesure no="15">
+        <date>2013-11</date>
+        <taux>85.5</taux>
+        <nombre>5.9</nombre>
+      </mesure>
+      <mesure no="16">
+        <date>2014-02</date>
+        <taux>90.8</taux>
+        <nombre>9.9</nombre>
+      </mesure>
+      <mesure no="17">
+        <date>2014-09</date>
+        <taux>92.9</taux>
+        <nombre>13.1</nombre>
+      </mesure>
+      <mesure no="18">
+        <date>2015-01</date>
+        <taux>91.4032715394</taux>
+        <nombre>10.6</nombre>
+      </mesure>
+      <mesure no="19">
+        <date>2015-05</date>
+        <taux>91.4447374589</taux>
+        <nombre>10.7</nombre>
+      </mesure>
+      <mesure no="20">
+        <date>2015-06</date>
+        <taux>86.1727621706</taux>
+        <nombre>6.2</nombre>
+      </mesure>
+      <mesure no="21">
+        <date>2013-05</date>
+        <taux>92.3</taux>
+        <nombre>12.0</nombre>
+      </mesure>
+      <mesure no="22">
+        <date>2013-07</date>
+        <taux>90.8</taux>
+        <nombre>9.9</nombre>
+      </mesure>
+      <mesure no="23">
+        <date>2013-12</date>
+        <taux>90.9</taux>
+        <nombre>10.0</nombre>
+      </mesure>
+      <mesure no="24">
+        <date>2014-11</date>
+        <taux>86.7347499119</taux>
+        <nombre>6.5</nombre>
+      </mesure>
+      <mesure no="25">
+        <date>2015-08</date>
+        <taux>93.1</taux>
+        <nombre>13.5</nombre>
+      </mesure>
+      <mesure no="26">
+        <date>2013-01</date>
+        <taux>91.9</taux>
+        <nombre>11.3</nombre>
+      </mesure>
+      <mesure no="27">
+        <date>2013-03</date>
+        <taux>87.6</taux>
+        <nombre>7.1</nombre>
+      </mesure>
+      <mesure no="28">
+        <date>2013-04</date>
+        <taux>88.7</taux>
+        <nombre>7.8</nombre>
+      </mesure>
+      <mesure no="29">
+        <date>2013-09</date>
+        <taux>93.1</taux>
+        <nombre>13.5</nombre>
+      </mesure>
+      <mesure no="30">
+        <date>2013-10</date>
+        <taux>85.6</taux>
+        <nombre>5.9</nombre>
+      </mesure>
+      <mesure no="31">
+        <date>2014-01</date>
+        <taux>91.4</taux>
+        <nombre>10.6</nombre>
+      </mesure>
+      <mesure no="32">
+        <date>2014-03</date>
+        <taux>91.5</taux>
+        <nombre>10.8</nombre>
+      </mesure>
+      <mesure no="33">
+        <date>2014-04</date>
+        <taux>91.6</taux>
+        <nombre>10.9</nombre>
+      </mesure>
+      <mesure no="34">
+        <date>2014-07</date>
+        <taux>83.9</taux>
+        <nombre>5.2</nombre>
+      </mesure>
+      <mesure no="35">
+        <date>2015-04</date>
+        <taux>89.2820641654</taux>
+        <nombre>8.3</nombre>
+      </mesure>
+    </ligne>
+    <ligne valeur="D">
+      <mesure no="1">
+        <date>2013-05</date>
+        <taux>95.5</taux>
+        <nombre>21.2</nombre>
+      </mesure>
+      <mesure no="2">
+        <date>2013-08</date>
+        <taux>95.4</taux>
+        <nombre>20.7</nombre>
+      </mesure>
+      <mesure no="3">
+        <date>2013-09</date>
+        <taux>96.8</taux>
+        <nombre>30.3</nombre>
+      </mesure>
+      <mesure no="4">
+        <date>2013-11</date>
+        <taux>92.0</taux>
+        <nombre>11.5</nombre>
+      </mesure>
+      <mesure no="5">
+        <date>2014-01</date>
+        <taux>93.6</taux>
+        <nombre>14.6</nombre>
+      </mesure>
+      <mesure no="6">
+        <date>2014-07</date>
+        <taux>86.6</taux>
+        <nombre>6.5</nombre>
+      </mesure>
+      <mesure no="7">
+        <date>2014-10</date>
+        <taux>81.4</taux>
+        <nombre>4.4</nombre>
+      </mesure>
+      <mesure no="8">
+        <date>2015-01</date>
+        <taux>86.562984012</taux>
+        <nombre>6.4</nombre>
+      </mesure>
+      <mesure no="9">
+        <date>2015-07</date>
+        <taux>87.7</taux>
+        <nombre>7.1</nombre>
+      </mesure>
+      <mesure no="10">
+        <date>2013-01</date>
+        <taux>77.6</taux>
+        <nombre>3.5</nombre>
+      </mesure>
+      <mesure no="11">
+        <date>2013-05</date>
+        <taux>87.1</taux>
+        <nombre>6.8</nombre>
+      </mesure>
+      <mesure no="12">
+        <date>2013-09</date>
+        <taux>83.1</taux>
+        <nombre>4.9</nombre>
+      </mesure>
+      <mesure no="13">
+        <date>2015-05</date>
+        <taux>86.3768853161</taux>
+        <nombre>6.3</nombre>
+      </mesure>
+      <mesure no="14">
+        <date>2013-08</date>
+        <taux>90.4</taux>
+        <nombre>9.4</nombre>
+      </mesure>
+      <mesure no="15">
+        <date>2013-10</date>
+        <taux>79.6</taux>
+        <nombre>3.9</nombre>
+      </mesure>
+      <mesure no="16">
+        <date>2014-05</date>
+        <taux>85.9</taux>
+        <nombre>6.1</nombre>
+      </mesure>
+      <mesure no="17">
+        <date>2014-08</date>
+        <taux>92.0</taux>
+        <nombre>11.5</nombre>
+      </mesure>
+      <mesure no="18">
+        <date>2014-09</date>
+        <taux>87.0</taux>
+        <nombre>6.7</nombre>
+      </mesure>
+      <mesure no="19">
+        <date>2015-06</date>
+        <taux>82.8097061383</taux>
+        <nombre>4.8</nombre>
+      </mesure>
+      <mesure no="20">
+        <date>2015-08</date>
+        <taux>91.5</taux>
+        <nombre>10.8</nombre>
+      </mesure>
+      <mesure no="21">
+        <date>2013-02</date>
+        <taux>79.3</taux>
+        <nombre>3.8</nombre>
+      </mesure>
+      <mesure no="22">
+        <date>2013-04</date>
+        <taux>82.9</taux>
+        <nombre>4.8</nombre>
+      </mesure>
+      <mesure no="23">
+        <date>2013-06</date>
+        <taux>85.1</taux>
+        <nombre>5.7</nombre>
+      </mesure>
+      <mesure no="24">
+        <date>2013-12</date>
+        <taux>85.5</taux>
+        <nombre>5.9</nombre>
+      </mesure>
+      <mesure no="25">
+        <date>2015-02</date>
+        <taux>87.642140672</taux>
+        <nombre>7.1</nombre>
+      </mesure>
+      <mesure no="26">
+        <date>2015-03</date>
+        <taux>86.3083523461</taux>
+        <nombre>6.3</nombre>
+      </mesure>
+      <mesure no="27">
+        <date>2013-07</date>
+        <taux>85.2</taux>
+        <nombre>5.8</nombre>
+      </mesure>
+      <mesure no="28">
+        <date>2013-11</date>
+        <taux>76.9</taux>
+        <nombre>3.3</nombre>
+      </mesure>
+      <mesure no="29">
+        <date>2014-03</date>
+        <taux>87.9</taux>
+        <nombre>7.3</nombre>
+      </mesure>
+      <mesure no="30">
+        <date>2014-04</date>
+        <taux>88.5</taux>
+        <nombre>7.7</nombre>
+      </mesure>
+      <mesure no="31">
+        <date>2014-06</date>
+        <taux>85.2</taux>
+        <nombre>5.8</nombre>
+      </mesure>
+      <mesure no="32">
+        <date>2014-11</date>
+        <taux>84.7789019644</taux>
+        <nombre>5.6</nombre>
+      </mesure>
+      <mesure no="33">
+        <date>2014-12</date>
+        <taux>84.2</taux>
+        <nombre>5.3</nombre>
+      </mesure>
+      <mesure no="34">
+        <date>2015-04</date>
+        <taux>86.5549619436</taux>
+        <nombre>6.4</nombre>
+      </mesure>
+    </ligne>
+    <ligne valeur="E">
+      <mesure no="1">
+        <date>2014-10</date>
+        <taux>94.0</taux>
+        <nombre>15.7</nombre>
+      </mesure>
+      <mesure no="2">
+        <date>2015-03</date>
+        <taux>96.3263168075</taux>
+        <nombre>26.2</nombre>
+      </mesure>
+      <mesure no="3">
+        <date>2013-02</date>
+        <taux>94.7</taux>
+        <nombre>17.9</nombre>
+      </mesure>
+      <mesure no="4">
+        <date>2014-02</date>
+        <taux>95.0</taux>
+        <nombre>19.0</nombre>
+      </mesure>
+      <mesure no="5">
+        <date>2014-04</date>
+        <taux>93.9</taux>
+        <nombre>15.4</nombre>
+      </mesure>
+      <mesure no="6">
+        <date>2014-06</date>
+        <taux>95.4</taux>
+        <nombre>20.7</nombre>
+      </mesure>
+      <mesure no="7">
+        <date>2015-05</date>
+        <taux>95.9872926887</taux>
+        <nombre>23.9</nombre>
+      </mesure>
+      <mesure no="8">
+        <date>2015-08</date>
+        <taux>94.7</taux>
+        <nombre>17.9</nombre>
+      </mesure>
+      <mesure no="9">
+        <date>2013-01</date>
+        <taux>93.3</taux>
+        <nombre>13.9</nombre>
+      </mesure>
+      <mesure no="10">
+        <date>2013-03</date>
+        <taux>92.9</taux>
+        <nombre>13.1</nombre>
+      </mesure>
+      <mesure no="11">
+        <date>2013-07</date>
+        <taux>94.0</taux>
+        <nombre>15.7</nombre>
+      </mesure>
+      <mesure no="12">
+        <date>2013-10</date>
+        <taux>95.2</taux>
+        <nombre>19.8</nombre>
+      </mesure>
+      <mesure no="13">
+        <date>2013-12</date>
+        <taux>94.9</taux>
+        <nombre>18.6</nombre>
+      </mesure>
+      <mesure no="14">
+        <date>2014-03</date>
+        <taux>94.4</taux>
+        <nombre>16.9</nombre>
+      </mesure>
+      <mesure no="15">
+        <date>2014-05</date>
+        <taux>93.3</taux>
+        <nombre>13.9</nombre>
+      </mesure>
+      <mesure no="16">
+        <date>2014-09</date>
+        <taux>96.0</taux>
+        <nombre>24.0</nombre>
+      </mesure>
+      <mesure no="17">
+        <date>2015-04</date>
+        <taux>90.539314526</taux>
+        <nombre>9.6</nombre>
+      </mesure>
+      <mesure no="18">
+        <date>2015-07</date>
+        <taux>93.5</taux>
+        <nombre>14.4</nombre>
+      </mesure>
+      <mesure no="19">
+        <date>2013-04</date>
+        <taux>96.2</taux>
+        <nombre>25.3</nombre>
+      </mesure>
+      <mesure no="20">
+        <date>2013-06</date>
+        <taux>93.9</taux>
+        <nombre>15.4</nombre>
+      </mesure>
+      <mesure no="21">
+        <date>2014-07</date>
+        <taux>92.5</taux>
+        <nombre>12.3</nombre>
+      </mesure>
+      <mesure no="22">
+        <date>2014-08</date>
+        <taux>96.0</taux>
+        <nombre>24.0</nombre>
+      </mesure>
+      <mesure no="23">
+        <date>2014-11</date>
+        <taux>95.6646036773</taux>
+        <nombre>22.1</nombre>
+      </mesure>
+      <mesure no="24">
+        <date>2014-12</date>
+        <taux>92.7</taux>
+        <nombre>12.7</nombre>
+      </mesure>
+      <mesure no="25">
+        <date>2015-01</date>
+        <taux>94.9052094942</taux>
+        <nombre>18.6</nombre>
+      </mesure>
+      <mesure no="26">
+        <date>2015-02</date>
+        <taux>94.0738560337</taux>
+        <nombre>15.9</nombre>
+      </mesure>
+      <mesure no="27">
+        <date>2015-06</date>
+        <taux>93.059152876</taux>
+        <nombre>13.4</nombre>
+      </mesure>
+    </ligne>
+    <ligne valeur="H">
+      <mesure no="1">
+        <date>2013-02</date>
+        <taux>92.7</taux>
+        <nombre>12.7</nombre>
+      </mesure>
+      <mesure no="2">
+        <date>2013-03</date>
+        <taux>92.3</taux>
+        <nombre>12.0</nombre>
+      </mesure>
+      <mesure no="3">
+        <date>2013-04</date>
+        <taux>94.6</taux>
+        <nombre>17.5</nombre>
+      </mesure>
+      <mesure no="4">
+        <date>2014-01</date>
+        <taux>95.9</taux>
+        <nombre>23.4</nombre>
+      </mesure>
+      <mesure no="5">
+        <date>2014-04</date>
+        <taux>95.7</taux>
+        <nombre>22.3</nombre>
+      </mesure>
+      <mesure no="6">
+        <date>2014-05</date>
+        <taux>96.9</taux>
+        <nombre>31.3</nombre>
+      </mesure>
+      <mesure no="7">
+        <date>2015-05</date>
+        <taux>95.9381245311</taux>
+        <nombre>23.6</nombre>
+      </mesure>
+      <mesure no="8">
+        <date>2015-07</date>
+        <taux>92.8</taux>
+        <nombre>12.9</nombre>
+      </mesure>
+      <mesure no="9">
+        <date>2014-02</date>
+        <taux>96.1</taux>
+        <nombre>24.6</nombre>
+      </mesure>
+      <mesure no="10">
+        <date>2014-11</date>
+        <taux>94.7480048369</taux>
+        <nombre>18.0</nombre>
+      </mesure>
+      <mesure no="11">
+        <date>2014-12</date>
+        <taux>94.1</taux>
+        <nombre>15.9</nombre>
+      </mesure>
+      <mesure no="12">
+        <date>2015-01</date>
+        <taux>95.5645619782</taux>
+        <nombre>21.5</nombre>
+      </mesure>
+      <mesure no="13">
+        <date>2015-03</date>
+        <taux>96.0638677623</taux>
+        <nombre>24.4</nombre>
+      </mesure>
+      <mesure no="14">
+        <date>2015-08</date>
+        <taux>96.3</taux>
+        <nombre>26.0</nombre>
+      </mesure>
+      <mesure no="15">
+        <date>2013-06</date>
+        <taux>94.1</taux>
+        <nombre>15.9</nombre>
+      </mesure>
+      <mesure no="16">
+        <date>2013-12</date>
+        <taux>94.7</taux>
+        <nombre>17.9</nombre>
+      </mesure>
+      <mesure no="17">
+        <date>2014-03</date>
+        <taux>96.4</taux>
+        <nombre>26.8</nombre>
+      </mesure>
+      <mesure no="18">
+        <date>2015-04</date>
+        <taux>95.0794493186</taux>
+        <nombre>19.3</nombre>
+      </mesure>
+      <mesure no="19">
+        <date>2015-06</date>
+        <taux>92.3224849552</taux>
+        <nombre>12.0</nombre>
+      </mesure>
+      <mesure no="20">
+        <date>2013-05</date>
+        <taux>95.9</taux>
+        <nombre>23.4</nombre>
+      </mesure>
+      <mesure no="21">
+        <date>2013-08</date>
+        <taux>95.4</taux>
+        <nombre>20.7</nombre>
+      </mesure>
+      <mesure no="22">
+        <date>2013-01</date>
+        <taux>93.9</taux>
+        <nombre>15.4</nombre>
+      </mesure>
+      <mesure no="23">
+        <date>2013-07</date>
+        <taux>94.4</taux>
+        <nombre>16.9</nombre>
+      </mesure>
+      <mesure no="24">
+        <date>2013-09</date>
+        <taux>95.4</taux>
+        <nombre>20.7</nombre>
+      </mesure>
+      <mesure no="25">
+        <date>2013-10</date>
+        <taux>94.2</taux>
+        <nombre>16.2</nombre>
+      </mesure>
+      <mesure no="26">
+        <date>2013-11</date>
+        <taux>93.1</taux>
+        <nombre>13.5</nombre>
+      </mesure>
+      <mesure no="27">
+        <date>2014-06</date>
+        <taux>93.9</taux>
+        <nombre>15.4</nombre>
+      </mesure>
+      <mesure no="28">
+        <date>2014-07</date>
+        <taux>93.1</taux>
+        <nombre>13.5</nombre>
+      </mesure>
+      <mesure no="29">
+        <date>2014-08</date>
+        <taux>95.5</taux>
+        <nombre>21.2</nombre>
+      </mesure>
+      <mesure no="30">
+        <date>2014-09</date>
+        <taux>96.3</taux>
+        <nombre>26.0</nombre>
+      </mesure>
+      <mesure no="31">
+        <date>2014-10</date>
+        <taux>93.7</taux>
+        <nombre>14.9</nombre>
+      </mesure>
+      <mesure no="32">
+        <date>2015-02</date>
+        <taux>94.1782150702</taux>
+        <nombre>16.2</nombre>
+      </mesure>
+    </ligne>
+    <ligne valeur="J">
+      <mesure no="1">
+        <date>2013-02</date>
+        <taux>75.2</taux>
+        <nombre>3.0</nombre>
+      </mesure>
+      <mesure no="2">
+        <date>2013-03</date>
+        <taux>77.3</taux>
+        <nombre>3.4</nombre>
+      </mesure>
+      <mesure no="3">
+        <date>2013-05</date>
+        <taux>91.5</taux>
+        <nombre>10.8</nombre>
+      </mesure>
+      <mesure no="4">
+        <date>2013-08</date>
+        <taux>89.2</taux>
+        <nombre>8.3</nombre>
+      </mesure>
+      <mesure no="5">
+        <date>2013-10</date>
+        <taux>83.2</taux>
+        <nombre>5.0</nombre>
+      </mesure>
+      <mesure no="6">
+        <date>2013-12</date>
+        <taux>84.4</taux>
+        <nombre>5.4</nombre>
+      </mesure>
+      <mesure no="7">
+        <date>2014-02</date>
+        <taux>85.4</taux>
+        <nombre>5.8</nombre>
+      </mesure>
+      <mesure no="8">
+        <date>2014-09</date>
+        <taux>84.6</taux>
+        <nombre>5.5</nombre>
+      </mesure>
+      <mesure no="9">
+        <date>2014-10</date>
+        <taux>83.4</taux>
+        <nombre>5.0</nombre>
+      </mesure>
+      <mesure no="10">
+        <date>2015-03</date>
+        <taux>87.4978944245</taux>
+        <nombre>7.0</nombre>
+      </mesure>
+      <mesure no="11">
+        <date>2015-07</date>
+        <taux>86.9</taux>
+        <nombre>6.6</nombre>
+      </mesure>
+      <mesure no="12">
+        <date>2013-03</date>
+        <taux>84.2</taux>
+        <nombre>5.3</nombre>
+      </mesure>
+      <mesure no="13">
+        <date>2013-06</date>
+        <taux>83.5</taux>
+        <nombre>5.1</nombre>
+      </mesure>
+      <mesure no="14">
+        <date>2013-07</date>
+        <taux>87.0</taux>
+        <nombre>6.7</nombre>
+      </mesure>
+      <mesure no="15">
+        <date>2014-01</date>
+        <taux>82.0</taux>
+        <nombre>4.6</nombre>
+      </mesure>
+      <mesure no="16">
+        <date>2014-04</date>
+        <taux>88.9</taux>
+        <nombre>8.0</nombre>
+      </mesure>
+      <mesure no="17">
+        <date>2015-04</date>
+        <taux>90.7900630753</taux>
+        <nombre>9.9</nombre>
+      </mesure>
+      <mesure no="18">
+        <date>2013-01</date>
+        <taux>82.5</taux>
+        <nombre>4.7</nombre>
+      </mesure>
+      <mesure no="19">
+        <date>2013-02</date>
+        <taux>88.1</taux>
+        <nombre>7.4</nombre>
+      </mesure>
+      <mesure no="20">
+        <date>2014-03</date>
+        <taux>87.1</taux>
+        <nombre>6.8</nombre>
+      </mesure>
+      <mesure no="21">
+        <date>2014-05</date>
+        <taux>87.1</taux>
+        <nombre>6.8</nombre>
+      </mesure>
+      <mesure no="22">
+        <date>2014-06</date>
+        <taux>84.9</taux>
+        <nombre>5.6</nombre>
+      </mesure>
+      <mesure no="23">
+        <date>2014-07</date>
+        <taux>85.9</taux>
+        <nombre>6.1</nombre>
+      </mesure>
+      <mesure no="24">
+        <date>2015-01</date>
+        <taux>87.2331383961</taux>
+        <nombre>6.8</nombre>
+      </mesure>
+      <mesure no="25">
+        <date>2015-02</date>
+        <taux>85.0582355825</taux>
+        <nombre>5.7</nombre>
+      </mesure>
+      <mesure no="26">
+        <date>2015-05</date>
+        <taux>90.9248180007</taux>
+        <nombre>10.0</nombre>
+      </mesure>
+      <mesure no="27">
+        <date>2013-04</date>
+        <taux>85.0</taux>
+        <nombre>5.7</nombre>
+      </mesure>
+      <mesure no="28">
+        <date>2013-09</date>
+        <taux>88.8</taux>
+        <nombre>7.9</nombre>
+      </mesure>
+      <mesure no="29">
+        <date>2014-08</date>
+        <taux>87.4</taux>
+        <nombre>6.9</nombre>
+      </mesure>
+      <mesure no="30">
+        <date>2013-11</date>
+        <taux>80.7</taux>
+        <nombre>4.2</nombre>
+      </mesure>
+      <mesure no="31">
+        <date>2014-11</date>
+        <taux>85.7755475979</taux>
+        <nombre>6.0</nombre>
+      </mesure>
+      <mesure no="32">
+        <date>2014-12</date>
+        <taux>84.3</taux>
+        <nombre>5.4</nombre>
+      </mesure>
+      <mesure no="33">
+        <date>2015-06</date>
+        <taux>88.9715832454</taux>
+        <nombre>8.1</nombre>
+      </mesure>
+      <mesure no="34">
+        <date>2015-08</date>
+        <taux>90.0</taux>
+        <nombre>9.0</nombre>
+      </mesure>
+    </ligne>
+    <ligne valeur="K">
+      <mesure no="1">
+        <date>2013-02</date>
+        <taux>89.4</taux>
+        <nombre>8.4</nombre>
+      </mesure>
+      <mesure no="2">
+        <date>2013-05</date>
+        <taux>81.3</taux>
+        <nombre>4.3</nombre>
+      </mesure>
+      <mesure no="3">
+        <date>2014-01</date>
+        <taux>76.6</taux>
+        <nombre>3.3</nombre>
+      </mesure>
+      <mesure no="4">
+        <date>2014-02</date>
+        <taux>84.4</taux>
+        <nombre>5.4</nombre>
+      </mesure>
+      <mesure no="5">
+        <date>2014-06</date>
+        <taux>79.6</taux>
+        <nombre>3.9</nombre>
+      </mesure>
+      <mesure no="6">
+        <date>2015-06</date>
+        <taux>90.0426262557</taux>
+        <nombre>9.0</nombre>
+      </mesure>
+      <mesure no="7">
+        <date>2015-08</date>
+        <taux>87.6</taux>
+        <nombre>7.1</nombre>
+      </mesure>
+      <mesure no="8">
+        <date>2013-06</date>
+        <taux>71.9</taux>
+        <nombre>2.6</nombre>
+      </mesure>
+      <mesure no="9">
+        <date>2013-07</date>
+        <taux>85.1</taux>
+        <nombre>5.7</nombre>
+      </mesure>
+      <mesure no="10">
+        <date>2014-03</date>
+        <taux>87.9</taux>
+        <nombre>7.3</nombre>
+      </mesure>
+      <mesure no="11">
+        <date>2015-01</date>
+        <taux>87.1798892246</taux>
+        <nombre>6.8</nombre>
+      </mesure>
+      <mesure no="12">
+        <date>2015-03</date>
+        <taux>88.1187031039</taux>
+        <nombre>7.4</nombre>
+      </mesure>
+      <mesure no="13">
+        <date>2013-04</date>
+        <taux>82.0</taux>
+        <nombre>4.6</nombre>
+      </mesure>
+      <mesure no="14">
+        <date>2013-10</date>
+        <taux>81.2</taux>
+        <nombre>4.3</nombre>
+      </mesure>
+      <mesure no="15">
+        <date>2014-04</date>
+        <taux>87.0</taux>
+        <nombre>6.7</nombre>
+      </mesure>
+      <mesure no="16">
+        <date>2014-07</date>
+        <taux>87.6</taux>
+        <nombre>7.1</nombre>
+      </mesure>
+      <mesure no="17">
+        <date>2014-09</date>
+        <taux>92.1</taux>
+        <nombre>11.7</nombre>
+      </mesure>
+      <mesure no="18">
+        <date>2014-10</date>
+        <taux>86.5</taux>
+        <nombre>6.4</nombre>
+      </mesure>
+      <mesure no="19">
+        <date>2013-01</date>
+        <taux>75.2</taux>
+        <nombre>3.0</nombre>
+      </mesure>
+      <mesure no="20">
+        <date>2013-09</date>
+        <taux>86.0</taux>
+        <nombre>6.1</nombre>
+      </mesure>
+      <mesure no="21">
+        <date>2013-11</date>
+        <taux>77.7</taux>
+        <nombre>3.5</nombre>
+      </mesure>
+      <mesure no="22">
+        <date>2013-12</date>
+        <taux>83.1</taux>
+        <nombre>4.9</nombre>
+      </mesure>
+      <mesure no="23">
+        <date>2014-05</date>
+        <taux>91.9</taux>
+        <nombre>11.3</nombre>
+      </mesure>
+      <mesure no="24">
+        <date>2014-11</date>
+        <taux>84.5732734419</taux>
+        <nombre>5.5</nombre>
+      </mesure>
+      <mesure no="25">
+        <date>2015-02</date>
+        <taux>85.0869749682</taux>
+        <nombre>5.7</nombre>
+      </mesure>
+      <mesure no="26">
+        <date>2015-05</date>
+        <taux>91.3842125718</taux>
+        <nombre>10.6</nombre>
+      </mesure>
+      <mesure no="27">
+        <date>2013-08</date>
+        <taux>88.3</taux>
+        <nombre>7.5</nombre>
+      </mesure>
+      <mesure no="28">
+        <date>2014-08</date>
+        <taux>91.3</taux>
+        <nombre>10.5</nombre>
+      </mesure>
+      <mesure no="29">
+        <date>2014-12</date>
+        <taux>83.6</taux>
+        <nombre>5.1</nombre>
+      </mesure>
+      <mesure no="30">
+        <date>2015-04</date>
+        <taux>86.184744626</taux>
+        <nombre>6.2</nombre>
+      </mesure>
+      <mesure no="31">
+        <date>2015-07</date>
+        <taux>89.4</taux>
+        <nombre>8.4</nombre>
+      </mesure>
+    </ligne>
+    <ligne valeur="L">
+      <mesure no="1">
+        <date>2013-05</date>
+        <taux>90.4</taux>
+        <nombre>9.4</nombre>
+      </mesure>
+      <mesure no="2">
+        <date>2013-07</date>
+        <taux>93.2</taux>
+        <nombre>13.7</nombre>
+      </mesure>
+      <mesure no="3">
+        <date>2013-08</date>
+        <taux>89.9</taux>
+        <nombre>8.9</nombre>
+      </mesure>
+      <mesure no="4">
+        <date>2013-11</date>
+        <taux>77.8</taux>
+        <nombre>3.5</nombre>
+      </mesure>
+      <mesure no="5">
+        <date>2014-11</date>
+        <taux>81.3097137157</taux>
+        <nombre>4.4</nombre>
+      </mesure>
+      <mesure no="6">
+        <date>2014-12</date>
+        <taux>80.4</taux>
+        <nombre>4.1</nombre>
+      </mesure>
+      <mesure no="7">
+        <date>2013-03</date>
+        <taux>81.8</taux>
+        <nombre>4.5</nombre>
+      </mesure>
+      <mesure no="8">
+        <date>2013-04</date>
+        <taux>84.4</taux>
+        <nombre>5.4</nombre>
+      </mesure>
+      <mesure no="9">
+        <date>2013-05</date>
+        <taux>90.6</taux>
+        <nombre>9.6</nombre>
+      </mesure>
+      <mesure no="10">
+        <date>2013-06</date>
+        <taux>82.3</taux>
+        <nombre>4.6</nombre>
+      </mesure>
+      <mesure no="11">
+        <date>2013-12</date>
+        <taux>83.0</taux>
+        <nombre>4.9</nombre>
+      </mesure>
+      <mesure no="12">
+        <date>2014-02</date>
+        <taux>83.1</taux>
+        <nombre>4.9</nombre>
+      </mesure>
+      <mesure no="13">
+        <date>2014-03</date>
+        <taux>88.2</taux>
+        <nombre>7.5</nombre>
+      </mesure>
+      <mesure no="14">
+        <date>2014-05</date>
+        <taux>88.8</taux>
+        <nombre>7.9</nombre>
+      </mesure>
+      <mesure no="15">
+        <date>2014-08</date>
+        <taux>92.0</taux>
+        <nombre>11.5</nombre>
+      </mesure>
+      <mesure no="16">
+        <date>2014-09</date>
+        <taux>85.7</taux>
+        <nombre>6.0</nombre>
+      </mesure>
+      <mesure no="17">
+        <date>2014-10</date>
+        <taux>82.4</taux>
+        <nombre>4.7</nombre>
+      </mesure>
+      <mesure no="18">
+        <date>2015-01</date>
+        <taux>82.1373543647</taux>
+        <nombre>4.6</nombre>
+      </mesure>
+      <mesure no="19">
+        <date>2015-05</date>
+        <taux>85.8420374434</taux>
+        <nombre>6.1</nombre>
+      </mesure>
+      <mesure no="20">
+        <date>2015-06</date>
+        <taux>82.6352043617</taux>
+        <nombre>4.8</nombre>
+      </mesure>
+      <mesure no="21">
+        <date>2015-07</date>
+        <taux>78.5</taux>
+        <nombre>3.7</nombre>
+      </mesure>
+      <mesure no="22">
+        <date>2015-08</date>
+        <taux>89.9</taux>
+        <nombre>8.9</nombre>
+      </mesure>
+      <mesure no="23">
+        <date>2015-03</date>
+        <taux>82.9023923154</taux>
+        <nombre>4.8</nombre>
+      </mesure>
+      <mesure no="24">
+        <date>2013-09</date>
+        <taux>84.9</taux>
+        <nombre>5.6</nombre>
+      </mesure>
+      <mesure no="25">
+        <date>2015-02</date>
+        <taux>81.8190167315</taux>
+        <nombre>4.5</nombre>
+      </mesure>
+      <mesure no="26">
+        <date>2015-04</date>
+        <taux>81.7515864371</taux>
+        <nombre>4.5</nombre>
+      </mesure>
+      <mesure no="27">
+        <date>2013-01</date>
+        <taux>84.0</taux>
+        <nombre>5.3</nombre>
+      </mesure>
+      <mesure no="28">
+        <date>2013-02</date>
+        <taux>82.1</taux>
+        <nombre>4.6</nombre>
+      </mesure>
+      <mesure no="29">
+        <date>2013-07</date>
+        <taux>87.2</taux>
+        <nombre>6.8</nombre>
+      </mesure>
+      <mesure no="30">
+        <date>2013-10</date>
+        <taux>82.0</taux>
+        <nombre>4.6</nombre>
+      </mesure>
+      <mesure no="31">
+        <date>2014-01</date>
+        <taux>82.3</taux>
+        <nombre>4.6</nombre>
+      </mesure>
+      <mesure no="32">
+        <date>2014-04</date>
+        <taux>86.7</taux>
+        <nombre>6.5</nombre>
+      </mesure>
+      <mesure no="33">
+        <date>2014-06</date>
+        <taux>84.0</taux>
+        <nombre>5.3</nombre>
+      </mesure>
+      <mesure no="34">
+        <date>2014-07</date>
+        <taux>85.5</taux>
+        <nombre>5.9</nombre>
+      </mesure>
+    </ligne>
+    <ligne valeur="N">
+      <mesure no="1">
+        <date>2013-08</date>
+        <taux>96.0</taux>
+        <nombre>24.0</nombre>
+      </mesure>
+      <mesure no="2">
+        <date>2013-11</date>
+        <taux>88.1</taux>
+        <nombre>7.4</nombre>
+      </mesure>
+      <mesure no="3">
+        <date>2015-01</date>
+        <taux>93.886480495</taux>
+        <nombre>15.4</nombre>
+      </mesure>
+      <mesure no="4">
+        <date>2013-01</date>
+        <taux>94.7</taux>
+        <nombre>17.9</nombre>
+      </mesure>
+      <mesure no="5">
+        <date>2013-05</date>
+        <taux>96.1</taux>
+        <nombre>24.6</nombre>
+      </mesure>
+      <mesure no="6">
+        <date>2013-09</date>
+        <taux>92.7</taux>
+        <nombre>12.7</nombre>
+      </mesure>
+      <mesure no="7">
+        <date>2013-12</date>
+        <taux>92.8</taux>
+        <nombre>12.9</nombre>
+      </mesure>
+      <mesure no="8">
+        <date>2014-01</date>
+        <taux>96.1</taux>
+        <nombre>24.6</nombre>
+      </mesure>
+      <mesure no="9">
+        <date>2014-03</date>
+        <taux>95.4</taux>
+        <nombre>20.7</nombre>
+      </mesure>
+      <mesure no="10">
+        <date>2014-04</date>
+        <taux>95.8</taux>
+        <nombre>22.8</nombre>
+      </mesure>
+      <mesure no="11">
+        <date>2014-05</date>
+        <taux>96.1</taux>
+        <nombre>24.6</nombre>
+      </mesure>
+      <mesure no="12">
+        <date>2014-06</date>
+        <taux>94.7</taux>
+        <nombre>17.9</nombre>
+      </mesure>
+      <mesure no="13">
+        <date>2014-07</date>
+        <taux>94.2</taux>
+        <nombre>16.2</nombre>
+      </mesure>
+      <mesure no="14">
+        <date>2014-08</date>
+        <taux>94.0</taux>
+        <nombre>15.7</nombre>
+      </mesure>
+      <mesure no="15">
+        <date>2014-09</date>
+        <taux>91.6</taux>
+        <nombre>10.9</nombre>
+      </mesure>
+      <mesure no="16">
+        <date>2015-04</date>
+        <taux>93.9060416413</taux>
+        <nombre>15.4</nombre>
+      </mesure>
+      <mesure no="17">
+        <date>2015-05</date>
+        <taux>93.7811658877</taux>
+        <nombre>15.1</nombre>
+      </mesure>
+      <mesure no="18">
+        <date>2013-10</date>
+        <taux>92.6</taux>
+        <nombre>12.5</nombre>
+      </mesure>
+      <mesure no="19">
+        <date>2015-08</date>
+        <taux>96.3</taux>
+        <nombre>26.0</nombre>
+      </mesure>
+      <mesure no="20">
+        <date>2013-02</date>
+        <taux>93.3</taux>
+        <nombre>13.9</nombre>
+      </mesure>
+      <mesure no="21">
+        <date>2013-04</date>
+        <taux>90.2</taux>
+        <nombre>9.2</nombre>
+      </mesure>
+      <mesure no="22">
+        <date>2014-02</date>
+        <taux>95.1</taux>
+        <nombre>19.4</nombre>
+      </mesure>
+      <mesure no="23">
+        <date>2014-10</date>
+        <taux>91.0</taux>
+        <nombre>10.1</nombre>
+      </mesure>
+      <mesure no="24">
+        <date>2013-03</date>
+        <taux>89.1</taux>
+        <nombre>8.2</nombre>
+      </mesure>
+      <mesure no="25">
+        <date>2013-06</date>
+        <taux>93.9</taux>
+        <nombre>15.4</nombre>
+      </mesure>
+      <mesure no="26">
+        <date>2014-11</date>
+        <taux>91.4502809243</taux>
+        <nombre>10.7</nombre>
+      </mesure>
+      <mesure no="27">
+        <date>2014-12</date>
+        <taux>94.0</taux>
+        <nombre>15.7</nombre>
+      </mesure>
+      <mesure no="28">
+        <date>2015-02</date>
+        <taux>93.7710664217</taux>
+        <nombre>15.1</nombre>
+      </mesure>
+      <mesure no="29">
+        <date>2015-03</date>
+        <taux>94.7538671561</taux>
+        <nombre>18.1</nombre>
+      </mesure>
+      <mesure no="30">
+        <date>2015-06</date>
+        <taux>87.8383549997</taux>
+        <nombre>7.2</nombre>
+      </mesure>
+      <mesure no="31">
+        <date>2015-07</date>
+        <taux>90.6</taux>
+        <nombre>9.6</nombre>
+      </mesure>
+    </ligne>
+    <ligne valeur="P">
+      <mesure no="1">
+        <date>2013-09</date>
+        <taux>88.0</taux>
+        <nombre>7.3</nombre>
+      </mesure>
+      <mesure no="2">
+        <date>2013-11</date>
+        <taux>82.8</taux>
+        <nombre>4.8</nombre>
+      </mesure>
+      <mesure no="3">
+        <date>2014-04</date>
+        <taux>87.9</taux>
+        <nombre>7.3</nombre>
+      </mesure>
+      <mesure no="4">
+        <date>2014-11</date>
+        <taux>87.2800648893</taux>
+        <nombre>6.9</nombre>
+      </mesure>
+      <mesure no="5">
+        <date>2014-12</date>
+        <taux>88.7</taux>
+        <nombre>7.8</nombre>
+      </mesure>
+      <mesure no="6">
+        <date>2013-06</date>
+        <taux>89.4</taux>
+        <nombre>8.4</nombre>
+      </mesure>
+      <mesure no="7">
+        <date>2013-03</date>
+        <taux>89.0</taux>
+        <nombre>8.1</nombre>
+      </mesure>
+      <mesure no="8">
+        <date>2013-08</date>
+        <taux>92.1</taux>
+        <nombre>11.7</nombre>
+      </mesure>
+      <mesure no="9">
+        <date>2013-12</date>
+        <taux>91.0</taux>
+        <nombre>10.1</nombre>
+      </mesure>
+      <mesure no="10">
+        <date>2014-08</date>
+        <taux>92.6</taux>
+        <nombre>12.5</nombre>
+      </mesure>
+      <mesure no="11">
+        <date>2014-09</date>
+        <taux>93.5</taux>
+        <nombre>14.4</nombre>
+      </mesure>
+      <mesure no="12">
+        <date>2015-01</date>
+        <taux>90.9493380196</taux>
+        <nombre>10.0</nombre>
+      </mesure>
+      <mesure no="13">
+        <date>2015-03</date>
+        <taux>93.2541415409</taux>
+        <nombre>13.8</nombre>
+      </mesure>
+      <mesure no="14">
+        <date>2015-04</date>
+        <taux>87.9561752108</taux>
+        <nombre>7.3</nombre>
+      </mesure>
+      <mesure no="15">
+        <date>2015-05</date>
+        <taux>92.7029222345</taux>
+        <nombre>12.7</nombre>
+      </mesure>
+      <mesure no="16">
+        <date>2015-06</date>
+        <taux>88.8351116319</taux>
+        <nombre>8.0</nombre>
+      </mesure>
+      <mesure no="17">
+        <date>2015-08</date>
+        <taux>90.8</taux>
+        <nombre>9.9</nombre>
+      </mesure>
+      <mesure no="18">
+        <date>2013-07</date>
+        <taux>90.1</taux>
+        <nombre>9.1</nombre>
+      </mesure>
+      <mesure no="19">
+        <date>2014-01</date>
+        <taux>91.0</taux>
+        <nombre>10.1</nombre>
+      </mesure>
+      <mesure no="20">
+        <date>2014-03</date>
+        <taux>88.8</taux>
+        <nombre>7.9</nombre>
+      </mesure>
+      <mesure no="21">
+        <date>2014-05</date>
+        <taux>92.7</taux>
+        <nombre>12.7</nombre>
+      </mesure>
+      <mesure no="22">
+        <date>2014-06</date>
+        <taux>89.4</taux>
+        <nombre>8.4</nombre>
+      </mesure>
+      <mesure no="23">
+        <date>2014-10</date>
+        <taux>90.7</taux>
+        <nombre>9.8</nombre>
+      </mesure>
+      <mesure no="24">
+        <date>2015-02</date>
+        <taux>92.7710751127</taux>
+        <nombre>12.8</nombre>
+      </mesure>
+      <mesure no="25">
+        <date>2013-01</date>
+        <taux>85.8</taux>
+        <nombre>6.0</nombre>
+      </mesure>
+      <mesure no="26">
+        <date>2013-04</date>
+        <taux>92.7</taux>
+        <nombre>12.7</nombre>
+      </mesure>
+      <mesure no="27">
+        <date>2013-10</date>
+        <taux>87.3</taux>
+        <nombre>6.9</nombre>
+      </mesure>
+      <mesure no="28">
+        <date>2014-02</date>
+        <taux>90.4</taux>
+        <nombre>9.4</nombre>
+      </mesure>
+      <mesure no="29">
+        <date>2014-07</date>
+        <taux>88.1</taux>
+        <nombre>7.4</nombre>
+      </mesure>
+      <mesure no="30">
+        <date>2015-07</date>
+        <taux>90.1</taux>
+        <nombre>9.1</nombre>
+      </mesure>
+    </ligne>
+    <ligne valeur="R">
+      <mesure no="1">
+        <date>2013-09</date>
+        <taux>92.9</taux>
+        <nombre>13.1</nombre>
+      </mesure>
+      <mesure no="2">
+        <date>2013-11</date>
+        <taux>82.5</taux>
+        <nombre>4.7</nombre>
+      </mesure>
+      <mesure no="3">
+        <date>2014-03</date>
+        <taux>91.5</taux>
+        <nombre>10.8</nombre>
+      </mesure>
+      <mesure no="4">
+        <date>2014-11</date>
+        <taux>84.8763888061</taux>
+        <nombre>5.6</nombre>
+      </mesure>
+      <mesure no="5">
+        <date>2015-04</date>
+        <taux>86.114716919</taux>
+        <nombre>6.2</nombre>
+      </mesure>
+      <mesure no="6">
+        <date>2015-06</date>
+        <taux>85.1866824833</taux>
+        <nombre>5.8</nombre>
+      </mesure>
+      <mesure no="7">
+        <date>2015-08</date>
+        <taux>91.2</taux>
+        <nombre>10.4</nombre>
+      </mesure>
+      <mesure no="8">
+        <date>2013-02</date>
+        <taux>88.2</taux>
+        <nombre>7.5</nombre>
+      </mesure>
+      <mesure no="9">
+        <date>2013-03</date>
+        <taux>89.2</taux>
+        <nombre>8.3</nombre>
+      </mesure>
+      <mesure no="10">
+        <date>2013-04</date>
+        <taux>89.3</taux>
+        <nombre>8.3</nombre>
+      </mesure>
+      <mesure no="11">
+        <date>2013-07</date>
+        <taux>88.5</taux>
+        <nombre>7.7</nombre>
+      </mesure>
+      <mesure no="12">
+        <date>2013-08</date>
+        <taux>92.0</taux>
+        <nombre>11.5</nombre>
+      </mesure>
+      <mesure no="13">
+        <date>2013-09</date>
+        <taux>89.6</taux>
+        <nombre>8.6</nombre>
+      </mesure>
+      <mesure no="14">
+        <date>2014-07</date>
+        <taux>89.7</taux>
+        <nombre>8.7</nombre>
+      </mesure>
+      <mesure no="15">
+        <date>2014-08</date>
+        <taux>93.2</taux>
+        <nombre>13.7</nombre>
+      </mesure>
+      <mesure no="16">
+        <date>2014-10</date>
+        <taux>77.9</taux>
+        <nombre>3.5</nombre>
+      </mesure>
+      <mesure no="17">
+        <date>2013-05</date>
+        <taux>93.0</taux>
+        <nombre>13.3</nombre>
+      </mesure>
+      <mesure no="18">
+        <date>2013-06</date>
+        <taux>89.5</taux>
+        <nombre>8.5</nombre>
+      </mesure>
+      <mesure no="19">
+        <date>2013-10</date>
+        <taux>89.4</taux>
+        <nombre>8.4</nombre>
+      </mesure>
+      <mesure no="20">
+        <date>2015-03</date>
+        <taux>90.3490746305</taux>
+        <nombre>9.4</nombre>
+      </mesure>
+      <mesure no="21">
+        <date>2015-05</date>
+        <taux>85.6322194653</taux>
+        <nombre>6.0</nombre>
+      </mesure>
+      <mesure no="22">
+        <date>2013-01</date>
+        <taux>87.2</taux>
+        <nombre>6.8</nombre>
+      </mesure>
+      <mesure no="23">
+        <date>2013-12</date>
+        <taux>90.2</taux>
+        <nombre>9.2</nombre>
+      </mesure>
+      <mesure no="24">
+        <date>2014-04</date>
+        <taux>88.5</taux>
+        <nombre>7.7</nombre>
+      </mesure>
+      <mesure no="25">
+        <date>2014-05</date>
+        <taux>89.7</taux>
+        <nombre>8.7</nombre>
+      </mesure>
+      <mesure no="26">
+        <date>2014-09</date>
+        <taux>88.9</taux>
+        <nombre>8.0</nombre>
+      </mesure>
+      <mesure no="27">
+        <date>2014-12</date>
+        <taux>87.6</taux>
+        <nombre>7.1</nombre>
+      </mesure>
+      <mesure no="28">
+        <date>2015-02</date>
+        <taux>91.2221584141</taux>
+        <nombre>10.4</nombre>
+      </mesure>
+      <mesure no="29">
+        <date>2015-07</date>
+        <taux>88.8</taux>
+        <nombre>7.9</nombre>
+      </mesure>
+      <mesure no="30">
+        <date>2014-01</date>
+        <taux>89.7</taux>
+        <nombre>8.7</nombre>
+      </mesure>
+      <mesure no="31">
+        <date>2014-02</date>
+        <taux>85.3</taux>
+        <nombre>5.8</nombre>
+      </mesure>
+      <mesure no="32">
+        <date>2014-06</date>
+        <taux>86.1</taux>
+        <nombre>6.2</nombre>
+      </mesure>
+      <mesure no="33">
+        <date>2015-01</date>
+        <taux>89.2314187431</taux>
+        <nombre>8.3</nombre>
+      </mesure>
+    </ligne>
+    <ligne valeur="U">
+      <mesure no="1">
+        <date>2014-04</date>
+        <taux>94.5</taux>
+        <nombre>17.2</nombre>
+      </mesure>
+      <mesure no="2">
+        <date>2014-05</date>
+        <taux>94.0</taux>
+        <nombre>15.7</nombre>
+      </mesure>
+      <mesure no="3">
+        <date>2014-07</date>
+        <taux>93.3</taux>
+        <nombre>13.9</nombre>
+      </mesure>
+      <mesure no="4">
+        <date>2014-09</date>
+        <taux>95.9</taux>
+        <nombre>23.4</nombre>
+      </mesure>
+      <mesure no="5">
+        <date>2015-01</date>
+        <taux>94.6733138523</taux>
+        <nombre>17.8</nombre>
+      </mesure>
+      <mesure no="6">
+        <date>2015-02</date>
+        <taux>91.4461717765</taux>
+        <nombre>10.7</nombre>
+      </mesure>
+      <mesure no="7">
+        <date>2015-05</date>
+        <taux>94.9440173559</taux>
+        <nombre>18.8</nombre>
+      </mesure>
+      <mesure no="8">
+        <date>2015-08</date>
+        <taux>95.9</taux>
+        <nombre>23.4</nombre>
+      </mesure>
+      <mesure no="9">
+        <date>2013-04</date>
+        <taux>90.1</taux>
+        <nombre>9.1</nombre>
+      </mesure>
+      <mesure no="10">
+        <date>2013-08</date>
+        <taux>95.3</taux>
+        <nombre>20.3</nombre>
+      </mesure>
+      <mesure no="11">
+        <date>2014-02</date>
+        <taux>92.2</taux>
+        <nombre>11.8</nombre>
+      </mesure>
+      <mesure no="12">
+        <date>2014-10</date>
+        <taux>93.6</taux>
+        <nombre>14.6</nombre>
+      </mesure>
+      <mesure no="13">
+        <date>2013-01</date>
+        <taux>92.3</taux>
+        <nombre>12.0</nombre>
+      </mesure>
+      <mesure no="14">
+        <date>2013-03</date>
+        <taux>89.2</taux>
+        <nombre>8.3</nombre>
+      </mesure>
+      <mesure no="15">
+        <date>2013-05</date>
+        <taux>95.3</taux>
+        <nombre>20.3</nombre>
+      </mesure>
+      <mesure no="16">
+        <date>2014-03</date>
+        <taux>94.0</taux>
+        <nombre>15.7</nombre>
+      </mesure>
+      <mesure no="17">
+        <date>2014-06</date>
+        <taux>95.5</taux>
+        <nombre>21.2</nombre>
+      </mesure>
+      <mesure no="18">
+        <date>2014-11</date>
+        <taux>88.8628382913</taux>
+        <nombre>8.0</nombre>
+      </mesure>
+      <mesure no="19">
+        <date>2015-06</date>
+        <taux>93.6587166493</taux>
+        <nombre>14.8</nombre>
+      </mesure>
+      <mesure no="20">
+        <date>2015-07</date>
+        <taux>92.3</taux>
+        <nombre>12.0</nombre>
+      </mesure>
+      <mesure no="21">
+        <date>2013-02</date>
+        <taux>91.7</taux>
+        <nombre>11.0</nombre>
+      </mesure>
+      <mesure no="22">
+        <date>2013-07</date>
+        <taux>94.3</taux>
+        <nombre>16.5</nombre>
+      </mesure>
+      <mesure no="23">
+        <date>2013-10</date>
+        <taux>91.6</taux>
+        <nombre>10.9</nombre>
+      </mesure>
+      <mesure no="24">
+        <date>2013-11</date>
+        <taux>88.4</taux>
+        <nombre>7.6</nombre>
+      </mesure>
+      <mesure no="25">
+        <date>2014-08</date>
+        <taux>95.4</taux>
+        <nombre>20.7</nombre>
+      </mesure>
+      <mesure no="26">
+        <date>2014-12</date>
+        <taux>91.8</taux>
+        <nombre>11.2</nombre>
+      </mesure>
+      <mesure no="27">
+        <date>2013-06</date>
+        <taux>93.2</taux>
+        <nombre>13.7</nombre>
+      </mesure>
+      <mesure no="28">
+        <date>2013-12</date>
+        <taux>90.6</taux>
+        <nombre>9.6</nombre>
+      </mesure>
+      <mesure no="29">
+        <date>2014-01</date>
+        <taux>93.2</taux>
+        <nombre>13.7</nombre>
+      </mesure>
+      <mesure no="30">
+        <date>2015-03</date>
+        <taux>95.9220368347</taux>
+        <nombre>23.5</nombre>
+      </mesure>
+      <mesure no="31">
+        <date>2015-04</date>
+        <taux>93.1680234041</taux>
+        <nombre>13.6</nombre>
+      </mesure>
+    </ligne>
+  </RER>
+  <Transilien/>
+</ponctualite>

@@ -1,0 +1,1221 @@
+<fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format">
+  <fo:layout-master-set>
+    <fo:simple-page-master master-name="premierePage" page-height="29.7cm" page-width="21cm" margin-top="5cm" margin-bottom="7cm" margin-left="2.5cm" margin-right="2.5cm">
+      <fo:region-body margin-top="1.5cm" margin-bottom="0.5cm"/>
+    </fo:simple-page-master>
+    <fo:simple-page-master master-name="pageTitle" page-height="29.7cm" page-width="21cm" margin-top="1.5cm" margin-bottom="2cm" margin-left="2.5cm" margin-right="2.5cm">
+      <fo:region-body margin-top="1.5cm" margin-bottom="0.5cm"/>
+      <fo:region-before extent="1.5m"/>
+      <fo:region-after extent="0.5cm"/>
+    </fo:simple-page-master>
+  </fo:layout-master-set>
+  <fo:page-sequence master-reference="premierePage">
+    <fo:flow flow-name="xsl-region-body" vertical-align="middle">
+      <fo:block text-align="center" font-size="22pt" font-weight="bold" padding-top="20pt" border-top="0.4mm #4c4c4c solid" padding-bottom="20pt"> Regularite mensuelle des TGVs</fo:block>
+      <fo:block text-align="center" font-size="22pt" padding-bottom="22pt" border-bottom="0.2mm #4c4c4c solid">MOD 8.4 - BE3 - ECL 2022</fo:block>
+      <fo:block text-align="center" font-size="16pt" padding-top="64pt" padding-bottom="16pt">Khaoula Abouelfadl</fo:block>
+    </fo:flow>
+  </fo:page-sequence>
+  <fo:page-sequence master-reference="pageTitle">
+    <fo:static-content flow-name="xsl-region-before">
+      <fo:block text-align="left" color="#4c4c4c" font-size="10pt" padding-bottom="10pt" border-bottom="0.2mm #4c4c4c solid">Regularite des lignes de TGV - Abouelfadl khaoula</fo:block>
+    </fo:static-content>
+    <fo:static-content flow-name="xsl-region-after" vertical-align="top">
+      <fo:block width="3cm" text-align="right" color="#4c4c4c" font-size="10pt">
+        <fo:page-number/>
+      </fo:block>
+    </fo:static-content>
+    <fo:flow flow-name="xsl-region-body">
+      <fo:block font-size="14pt" text-align="start" margin-left="0.5cm" font-weight="bold" padding-after="24pt" padding-before="24pt"> • Axe Nord</fo:block>
+      <fo:table text-align="center" border="0.3mm solid #000000">
+        <fo:table-body>
+          <fo:table-row>
+            <fo:table-cell border-bottom="0.3mm solid #000000" border-right="0.3mm solid #000000">
+              <fo:block font-size="12pt" font-weight="bold" text-align="left" padding-left="0.25cm">Gare Départ</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.3mm solid #000000" border-right="0.3mm solid #000000">
+              <fo:block font-size="12pt" font-weight="bold" text-align="left" padding-left="0.25cm">Gare Arrivée</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.3mm solid #000000" border-left="0.3mm solid #000000">
+              <fo:block font-size="12pt" font-weight="bold" text-align="left" padding-left="0.25cm">Régularité moyenne</fo:block>
+            </fo:table-cell>
+          </fo:table-row>
+          <fo:table-row>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">PARIS NORD</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">DOUAI</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-left="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">88.85 %</fo:block>
+            </fo:table-cell>
+          </fo:table-row>
+          <fo:table-row>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">PARIS NORD</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">ARRAS</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-left="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">90.01 %</fo:block>
+            </fo:table-cell>
+          </fo:table-row>
+          <fo:table-row>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">PARIS NORD</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">LILLE</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-left="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">90.70 %</fo:block>
+            </fo:table-cell>
+          </fo:table-row>
+          <fo:table-row>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">PARIS NORD</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">DUNKERQUE</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-left="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">92.83 %</fo:block>
+            </fo:table-cell>
+          </fo:table-row>
+          <fo:table-row>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">LYON PART DIEU</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">LILLE</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-left="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">76.97 %</fo:block>
+            </fo:table-cell>
+          </fo:table-row>
+          <fo:table-row>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">LILLE</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">PARIS NORD</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-left="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">88.88 %</fo:block>
+            </fo:table-cell>
+          </fo:table-row>
+          <fo:table-row>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">LILLE</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">LYON PART DIEU</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-left="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">89.10 %</fo:block>
+            </fo:table-cell>
+          </fo:table-row>
+          <fo:table-row>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">LILLE</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">MARSEILLE ST CHARLES</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-left="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">78.99 %</fo:block>
+            </fo:table-cell>
+          </fo:table-row>
+          <fo:table-row>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">ARRAS</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">PARIS NORD</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-left="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">87.05 %</fo:block>
+            </fo:table-cell>
+          </fo:table-row>
+          <fo:table-row>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">DUNKERQUE</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">PARIS NORD</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-left="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">94.49 %</fo:block>
+            </fo:table-cell>
+          </fo:table-row>
+          <fo:table-row>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">DOUAI</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">PARIS NORD</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-left="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">86.76 %</fo:block>
+            </fo:table-cell>
+          </fo:table-row>
+          <fo:table-row>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">MARSEILLE ST CHARLES</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">LILLE</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-left="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">74.05 %</fo:block>
+            </fo:table-cell>
+          </fo:table-row>
+        </fo:table-body>
+      </fo:table>
+      <fo:block break-after="page"/>
+      <fo:block font-size="14pt" text-align="start" margin-left="0.5cm" font-weight="bold" padding-after="24pt" padding-before="24pt"> • Axe Sud-Est</fo:block>
+      <fo:table text-align="center" border="0.3mm solid #000000">
+        <fo:table-body>
+          <fo:table-row>
+            <fo:table-cell border-bottom="0.3mm solid #000000" border-right="0.3mm solid #000000">
+              <fo:block font-size="12pt" font-weight="bold" text-align="left" padding-left="0.25cm">Gare Départ</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.3mm solid #000000" border-right="0.3mm solid #000000">
+              <fo:block font-size="12pt" font-weight="bold" text-align="left" padding-left="0.25cm">Gare Arrivée</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.3mm solid #000000" border-left="0.3mm solid #000000">
+              <fo:block font-size="12pt" font-weight="bold" text-align="left" padding-left="0.25cm">Régularité moyenne</fo:block>
+            </fo:table-cell>
+          </fo:table-row>
+          <fo:table-row>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">PARIS LYON</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">GRENOBLE</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-left="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">90.56 %</fo:block>
+            </fo:table-cell>
+          </fo:table-row>
+          <fo:table-row>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">PARIS LYON</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">LYON PART DIEU</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-left="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">95.10 %</fo:block>
+            </fo:table-cell>
+          </fo:table-row>
+          <fo:table-row>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">PARIS LYON</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">MULHOUSE VILLE</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-left="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">92.77 %</fo:block>
+            </fo:table-cell>
+          </fo:table-row>
+          <fo:table-row>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">PARIS LYON</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">VALENCE ALIXAN TGV</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-left="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">89.75 %</fo:block>
+            </fo:table-cell>
+          </fo:table-row>
+          <fo:table-row>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">PARIS LYON</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">LE CREUSOT MONTCEAU MONTCHANIN</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-left="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">85.09 %</fo:block>
+            </fo:table-cell>
+          </fo:table-row>
+          <fo:table-row>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">PARIS LYON</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">MARSEILLE ST CHARLES</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-left="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">92.72 %</fo:block>
+            </fo:table-cell>
+          </fo:table-row>
+          <fo:table-row>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">PARIS LYON</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">PERPIGNAN</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-left="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">87.63 %</fo:block>
+            </fo:table-cell>
+          </fo:table-row>
+          <fo:table-row>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">PARIS LYON</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">CHAMBERY CHALLES LES EAUX</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-left="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">86.34 %</fo:block>
+            </fo:table-cell>
+          </fo:table-row>
+          <fo:table-row>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">PARIS LYON</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">AVIGNON TGV</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-left="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">90.49 %</fo:block>
+            </fo:table-cell>
+          </fo:table-row>
+          <fo:table-row>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">PARIS LYON</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">MACON LOCHE</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-left="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">93.54 %</fo:block>
+            </fo:table-cell>
+          </fo:table-row>
+          <fo:table-row>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">PARIS LYON</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">TOULON</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-left="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">85.81 %</fo:block>
+            </fo:table-cell>
+          </fo:table-row>
+          <fo:table-row>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">PARIS LYON</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">NICE VILLE</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-left="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">81.56 %</fo:block>
+            </fo:table-cell>
+          </fo:table-row>
+          <fo:table-row>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">PARIS LYON</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">BELLEGARDE (AIN)</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-left="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">86.48 %</fo:block>
+            </fo:table-cell>
+          </fo:table-row>
+          <fo:table-row>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">PARIS LYON</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">BESANCON FRANCHE COMTE TGV</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-left="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">92.67 %</fo:block>
+            </fo:table-cell>
+          </fo:table-row>
+          <fo:table-row>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">PARIS LYON</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">DIJON VILLE</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-left="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">95.08 %</fo:block>
+            </fo:table-cell>
+          </fo:table-row>
+          <fo:table-row>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">PARIS LYON</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">SAINT ETIENNE CHATEAUCREUX</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-left="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">NaN %</fo:block>
+            </fo:table-cell>
+          </fo:table-row>
+          <fo:table-row>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">PARIS LYON</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">NIMES</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-left="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">87.50 %</fo:block>
+            </fo:table-cell>
+          </fo:table-row>
+          <fo:table-row>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">PARIS LYON</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">AIX EN PROVENCE TGV</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-left="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">NaN %</fo:block>
+            </fo:table-cell>
+          </fo:table-row>
+          <fo:table-row>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">PARIS LYON</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">ANNECY</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-left="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">92.93 %</fo:block>
+            </fo:table-cell>
+          </fo:table-row>
+          <fo:table-row>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">PARIS LYON</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">MONTPELLIER</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-left="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">89.46 %</fo:block>
+            </fo:table-cell>
+          </fo:table-row>
+          <fo:table-row>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">MONTPELLIER</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">LYON PART DIEU</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-left="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">81.07 %</fo:block>
+            </fo:table-cell>
+          </fo:table-row>
+          <fo:table-row>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">MONTPELLIER</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">PARIS LYON</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-left="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">88.69 %</fo:block>
+            </fo:table-cell>
+          </fo:table-row>
+          <fo:table-row>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">VALENCE ALIXAN TGV</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">PARIS LYON</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-left="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">85.27 %</fo:block>
+            </fo:table-cell>
+          </fo:table-row>
+          <fo:table-row>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">CHAMBERY CHALLES LES EAUX</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">PARIS LYON</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-left="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">86.34 %</fo:block>
+            </fo:table-cell>
+          </fo:table-row>
+          <fo:table-row>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">GRENOBLE</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">PARIS LYON</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-left="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">91.77 %</fo:block>
+            </fo:table-cell>
+          </fo:table-row>
+          <fo:table-row>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">LYON PART DIEU</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">MONTPELLIER</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-left="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">79.31 %</fo:block>
+            </fo:table-cell>
+          </fo:table-row>
+          <fo:table-row>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">LYON PART DIEU</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">PARIS LYON</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-left="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">94.47 %</fo:block>
+            </fo:table-cell>
+          </fo:table-row>
+          <fo:table-row>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">LYON PART DIEU</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">MARSEILLE ST CHARLES</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-left="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">77.80 %</fo:block>
+            </fo:table-cell>
+          </fo:table-row>
+          <fo:table-row>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">MULHOUSE VILLE</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">PARIS LYON</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-left="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">92.58 %</fo:block>
+            </fo:table-cell>
+          </fo:table-row>
+          <fo:table-row>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">PERPIGNAN</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">PARIS LYON</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-left="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">87.79 %</fo:block>
+            </fo:table-cell>
+          </fo:table-row>
+          <fo:table-row>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">AIX EN PROVENCE TGV</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">PARIS LYON</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-left="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">NaN %</fo:block>
+            </fo:table-cell>
+          </fo:table-row>
+          <fo:table-row>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">NICE VILLE</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">PARIS LYON</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-left="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">81.09 %</fo:block>
+            </fo:table-cell>
+          </fo:table-row>
+          <fo:table-row>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">ANNECY</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">PARIS LYON</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-left="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">92.69 %</fo:block>
+            </fo:table-cell>
+          </fo:table-row>
+          <fo:table-row>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">BELLEGARDE (AIN)</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">PARIS LYON</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-left="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">88.32 %</fo:block>
+            </fo:table-cell>
+          </fo:table-row>
+          <fo:table-row>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">MACON LOCHE</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">PARIS LYON</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-left="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">89.74 %</fo:block>
+            </fo:table-cell>
+          </fo:table-row>
+          <fo:table-row>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">AVIGNON TGV</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">PARIS LYON</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-left="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">84.67 %</fo:block>
+            </fo:table-cell>
+          </fo:table-row>
+          <fo:table-row>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">MARSEILLE ST CHARLES</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">LYON PART DIEU</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-left="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">79.85 %</fo:block>
+            </fo:table-cell>
+          </fo:table-row>
+          <fo:table-row>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">MARSEILLE ST CHARLES</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">PARIS LYON</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-left="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">91.56 %</fo:block>
+            </fo:table-cell>
+          </fo:table-row>
+          <fo:table-row>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">DIJON VILLE</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">PARIS LYON</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-left="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">91.55 %</fo:block>
+            </fo:table-cell>
+          </fo:table-row>
+          <fo:table-row>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">TOULON</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">PARIS LYON</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-left="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">83.83 %</fo:block>
+            </fo:table-cell>
+          </fo:table-row>
+          <fo:table-row>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">LE CREUSOT MONTCEAU MONTCHANIN</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">PARIS LYON</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-left="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">86.07 %</fo:block>
+            </fo:table-cell>
+          </fo:table-row>
+          <fo:table-row>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">SAINT ETIENNE CHATEAUCREUX</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">PARIS LYON</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-left="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">NaN %</fo:block>
+            </fo:table-cell>
+          </fo:table-row>
+          <fo:table-row>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">BESANCON FRANCHE COMTE TGV</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">PARIS LYON</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-left="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">93.30 %</fo:block>
+            </fo:table-cell>
+          </fo:table-row>
+          <fo:table-row>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">NIMES</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">PARIS LYON</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-left="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">85.47 %</fo:block>
+            </fo:table-cell>
+          </fo:table-row>
+        </fo:table-body>
+      </fo:table>
+      <fo:block break-after="page"/>
+      <fo:block font-size="14pt" text-align="start" margin-left="0.5cm" font-weight="bold" padding-after="24pt" padding-before="24pt"> • Axe Atlantique</fo:block>
+      <fo:table text-align="center" border="0.3mm solid #000000">
+        <fo:table-body>
+          <fo:table-row>
+            <fo:table-cell border-bottom="0.3mm solid #000000" border-right="0.3mm solid #000000">
+              <fo:block font-size="12pt" font-weight="bold" text-align="left" padding-left="0.25cm">Gare Départ</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.3mm solid #000000" border-right="0.3mm solid #000000">
+              <fo:block font-size="12pt" font-weight="bold" text-align="left" padding-left="0.25cm">Gare Arrivée</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.3mm solid #000000" border-left="0.3mm solid #000000">
+              <fo:block font-size="12pt" font-weight="bold" text-align="left" padding-left="0.25cm">Régularité moyenne</fo:block>
+            </fo:table-cell>
+          </fo:table-row>
+          <fo:table-row>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">LAVAL</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">PARIS MONTPARNASSE</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-left="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">92.19 %</fo:block>
+            </fo:table-cell>
+          </fo:table-row>
+          <fo:table-row>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">PARIS MONTPARNASSE</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">ANGERS SAINT LAUD</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-left="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">93.09 %</fo:block>
+            </fo:table-cell>
+          </fo:table-row>
+          <fo:table-row>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">PARIS MONTPARNASSE</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">ANGOULEME</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-left="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">92.58 %</fo:block>
+            </fo:table-cell>
+          </fo:table-row>
+          <fo:table-row>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">PARIS MONTPARNASSE</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">VANNES</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-left="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">92.28 %</fo:block>
+            </fo:table-cell>
+          </fo:table-row>
+          <fo:table-row>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">PARIS MONTPARNASSE</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">BORDEAUX ST JEAN</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-left="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">92.28 %</fo:block>
+            </fo:table-cell>
+          </fo:table-row>
+          <fo:table-row>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">PARIS MONTPARNASSE</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">LE MANS</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-left="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">89.29 %</fo:block>
+            </fo:table-cell>
+          </fo:table-row>
+          <fo:table-row>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">PARIS MONTPARNASSE</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">QUIMPER</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-left="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">92.56 %</fo:block>
+            </fo:table-cell>
+          </fo:table-row>
+          <fo:table-row>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">PARIS MONTPARNASSE</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">ST MALO</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-left="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">94.70 %</fo:block>
+            </fo:table-cell>
+          </fo:table-row>
+          <fo:table-row>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">PARIS MONTPARNASSE</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">POITIERS</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-left="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">94.22 %</fo:block>
+            </fo:table-cell>
+          </fo:table-row>
+          <fo:table-row>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">PARIS MONTPARNASSE</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">ST PIERRE DES CORPS</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-left="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">90.57 %</fo:block>
+            </fo:table-cell>
+          </fo:table-row>
+          <fo:table-row>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">PARIS MONTPARNASSE</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">TOURS</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-left="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">87.13 %</fo:block>
+            </fo:table-cell>
+          </fo:table-row>
+          <fo:table-row>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">PARIS MONTPARNASSE</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">LA ROCHELLE VILLE</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-left="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">92.57 %</fo:block>
+            </fo:table-cell>
+          </fo:table-row>
+          <fo:table-row>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">PARIS MONTPARNASSE</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">TOULOUSE MATABIAU</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-left="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">85.84 %</fo:block>
+            </fo:table-cell>
+          </fo:table-row>
+          <fo:table-row>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">PARIS MONTPARNASSE</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">RENNES</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-left="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">92.60 %</fo:block>
+            </fo:table-cell>
+          </fo:table-row>
+          <fo:table-row>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">PARIS MONTPARNASSE</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">NANTES</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-left="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">93.78 %</fo:block>
+            </fo:table-cell>
+          </fo:table-row>
+          <fo:table-row>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">PARIS MONTPARNASSE</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">LAVAL</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-left="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">93.20 %</fo:block>
+            </fo:table-cell>
+          </fo:table-row>
+          <fo:table-row>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">PARIS MONTPARNASSE</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">BREST</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-left="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">94.53 %</fo:block>
+            </fo:table-cell>
+          </fo:table-row>
+          <fo:table-row>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">ANGOULEME</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">PARIS MONTPARNASSE</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-left="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">87.12 %</fo:block>
+            </fo:table-cell>
+          </fo:table-row>
+          <fo:table-row>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">LYON PART DIEU</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">RENNES</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-left="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">87.53 %</fo:block>
+            </fo:table-cell>
+          </fo:table-row>
+          <fo:table-row>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">RENNES</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">PARIS MONTPARNASSE</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-left="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">91.50 %</fo:block>
+            </fo:table-cell>
+          </fo:table-row>
+          <fo:table-row>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">RENNES</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">LYON PART DIEU</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-left="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">88.21 %</fo:block>
+            </fo:table-cell>
+          </fo:table-row>
+          <fo:table-row>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">TOURS</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">PARIS MONTPARNASSE</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-left="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">87.87 %</fo:block>
+            </fo:table-cell>
+          </fo:table-row>
+          <fo:table-row>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">BORDEAUX ST JEAN</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">PARIS MONTPARNASSE</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-left="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">89.41 %</fo:block>
+            </fo:table-cell>
+          </fo:table-row>
+          <fo:table-row>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">ST MALO</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">PARIS MONTPARNASSE</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-left="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">94.77 %</fo:block>
+            </fo:table-cell>
+          </fo:table-row>
+          <fo:table-row>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">LA ROCHELLE VILLE</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">PARIS MONTPARNASSE</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-left="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">92.75 %</fo:block>
+            </fo:table-cell>
+          </fo:table-row>
+          <fo:table-row>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">ANGERS SAINT LAUD</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">PARIS MONTPARNASSE</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-left="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">91.80 %</fo:block>
+            </fo:table-cell>
+          </fo:table-row>
+          <fo:table-row>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">POITIERS</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">PARIS MONTPARNASSE</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-left="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">90.27 %</fo:block>
+            </fo:table-cell>
+          </fo:table-row>
+          <fo:table-row>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">BREST</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">PARIS MONTPARNASSE</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-left="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">93.95 %</fo:block>
+            </fo:table-cell>
+          </fo:table-row>
+          <fo:table-row>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">LE MANS</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">PARIS MONTPARNASSE</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-left="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">84.96 %</fo:block>
+            </fo:table-cell>
+          </fo:table-row>
+          <fo:table-row>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">ST PIERRE DES CORPS</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">PARIS MONTPARNASSE</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-left="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">83.81 %</fo:block>
+            </fo:table-cell>
+          </fo:table-row>
+          <fo:table-row>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">NANTES</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">PARIS MONTPARNASSE</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-left="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">93.15 %</fo:block>
+            </fo:table-cell>
+          </fo:table-row>
+          <fo:table-row>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">TOULOUSE MATABIAU</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">PARIS MONTPARNASSE</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-left="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">86.01 %</fo:block>
+            </fo:table-cell>
+          </fo:table-row>
+          <fo:table-row>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">VANNES</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">PARIS MONTPARNASSE</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-left="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">92.72 %</fo:block>
+            </fo:table-cell>
+          </fo:table-row>
+          <fo:table-row>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">QUIMPER</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">PARIS MONTPARNASSE</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-left="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">92.63 %</fo:block>
+            </fo:table-cell>
+          </fo:table-row>
+        </fo:table-body>
+      </fo:table>
+      <fo:block break-after="page"/>
+      <fo:block font-size="14pt" text-align="start" margin-left="0.5cm" font-weight="bold" padding-after="24pt" padding-before="24pt"> • Axe Est</fo:block>
+      <fo:table text-align="center" border="0.3mm solid #000000">
+        <fo:table-body>
+          <fo:table-row>
+            <fo:table-cell border-bottom="0.3mm solid #000000" border-right="0.3mm solid #000000">
+              <fo:block font-size="12pt" font-weight="bold" text-align="left" padding-left="0.25cm">Gare Départ</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.3mm solid #000000" border-right="0.3mm solid #000000">
+              <fo:block font-size="12pt" font-weight="bold" text-align="left" padding-left="0.25cm">Gare Arrivée</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.3mm solid #000000" border-left="0.3mm solid #000000">
+              <fo:block font-size="12pt" font-weight="bold" text-align="left" padding-left="0.25cm">Régularité moyenne</fo:block>
+            </fo:table-cell>
+          </fo:table-row>
+          <fo:table-row>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">PARIS EST</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">METZ</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-left="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">94.06 %</fo:block>
+            </fo:table-cell>
+          </fo:table-row>
+          <fo:table-row>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">PARIS EST</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">REIMS</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-left="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">93.42 %</fo:block>
+            </fo:table-cell>
+          </fo:table-row>
+          <fo:table-row>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">PARIS EST</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">STRASBOURG</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-left="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">91.71 %</fo:block>
+            </fo:table-cell>
+          </fo:table-row>
+          <fo:table-row>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">PARIS EST</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">NANCY</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-left="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">94.68 %</fo:block>
+            </fo:table-cell>
+          </fo:table-row>
+          <fo:table-row>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">REIMS</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">PARIS EST</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-left="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">93.04 %</fo:block>
+            </fo:table-cell>
+          </fo:table-row>
+          <fo:table-row>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">METZ</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">PARIS EST</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-left="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">90.77 %</fo:block>
+            </fo:table-cell>
+          </fo:table-row>
+          <fo:table-row>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">NANCY</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">PARIS EST</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-left="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">94.22 %</fo:block>
+            </fo:table-cell>
+          </fo:table-row>
+          <fo:table-row>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">NANTES</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">STRASBOURG</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-left="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">89.69 %</fo:block>
+            </fo:table-cell>
+          </fo:table-row>
+          <fo:table-row>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">STRASBOURG</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">PARIS EST</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-left="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">88.39 %</fo:block>
+            </fo:table-cell>
+          </fo:table-row>
+          <fo:table-row>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">STRASBOURG</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">NANTES</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-left="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">90.20 %</fo:block>
+            </fo:table-cell>
+          </fo:table-row>
+          <fo:table-row>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">MULHOUSE VILLE</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">PARIS LYON</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-left="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">88.18 %</fo:block>
+            </fo:table-cell>
+          </fo:table-row>
+          <fo:table-row>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">PARIS LYON</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-right="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">MULHOUSE VILLE</fo:block>
+            </fo:table-cell>
+            <fo:table-cell border-bottom="0.2mm solid #8b8b8b" border-left="0.3mm solid #8b8b8b">
+              <fo:block font-size="10pt" text-align="center">89.82 %</fo:block>
+            </fo:table-cell>
+          </fo:table-row>
+        </fo:table-body>
+      </fo:table>
+      <fo:block break-after="page"/>
+    </fo:flow>
+  </fo:page-sequence>
+</fo:root>

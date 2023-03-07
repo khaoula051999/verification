@@ -1,0 +1,94 @@
+body {
+    display: block;
+    font-family: Verdana;
+    background-color: white;
+    margin: 0;
+  }
+  
+  .service {
+    display: block;
+  }
+  
+  .lines {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    justify-content: center;
+  }
+  
+  .line {
+    flex-basis: 30%;
+    margin: 30px;
+    background-color: initial;
+    color: initial;
+  }
+  
+  h1 {
+    display: block;
+    font-size: 1.8em;
+    background-color: #01531c;
+    color: white;
+    padding: 30px;
+    font-weight: bold;
+    margin-top: 0;
+  }
+  
+  table {
+    display: table;
+    font-size: 16px;
+    width: 100%;
+    margin: 0 auto;
+    table-layout: auto;
+    border-collapse: collapse;
+  }
+  
+  th {
+    text-align: center;
+    font-weight: bold;
+    background-color: #01531c;
+    color: #f3f3f3;
+    vertical-align: inherit;
+    border: solid 1px black;
+    border-collapse: collapse;
+  }
+  tr:hover {
+    background-color: #e6e6e6;
+  }
+  tr:nth-child(even) {
+    background-color: #f5f5f5;
+  }
+  td {
+    border: solid 1px black;
+    vertical-align: inherit;
+    border-collapse: collapse;
+    padding: 4px;
+    text-align: center;
+    background-color: #008080;
+  }
+  
+  .header-row {
+    vertical-align: inherit;
+    border: solid 1px;
+    border-collapse: collapse;
+    text-align: center;
+    font-weight: bold;
+    background-color: #00423d;
+    color: white;
+  }
+  
+  .data-row {
+    vertical-align: inherit;
+    border: solid 1px;
+    border-collapse: collapse;
+  }
+.big-title
+{
+    display: block;
+    font-size: 2em;
+    background-color: white;
+    color: black;
+    padding: 30px;
+    font-weight: bold;
+    margin-top: 0;
+    text-align: center;
+}
